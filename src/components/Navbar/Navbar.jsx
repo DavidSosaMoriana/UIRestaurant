@@ -23,6 +23,7 @@ const Navbar = () => {
         <div />
         <a href="/" className="p__opensans">Book Table</a>
       </div>
+      {/* Implementación de menu para dispositivos pequeños añadiendo useState y mediaQueries */}
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
         {toggleMenu && (
